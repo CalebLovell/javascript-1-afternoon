@@ -74,7 +74,7 @@ dog.bark = function thing(bark){
 
 //Store the result of invoking the bark method in a variable called ruff.
 
-const ruff() = dog.bark
+const ruff = dog.bark
 
 //////////////////PROBLEM 6////////////////////
 
