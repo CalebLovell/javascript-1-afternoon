@@ -89,12 +89,12 @@ const ruff = dog.bark()
 
 function looper(array1) {
   let mySum = 0;
-  for (i = 0, i <= array1.length, i++) {
-    if (i/2 == 0 || i >= 100) {
-      mySum += i
+  for (let i = 0; i < array1.length; i++) {
+    if (array1[i]/2 == 0 || array1[i] >= 100) {
+      mySum += array1[i]
     }
-  }
-} return mySum
+  } return mySum
+}
 
 //////////////////PROBLEM 7////////////////////
 
