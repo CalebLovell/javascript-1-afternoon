@@ -129,8 +129,8 @@ function sampleCallbackTwo() {
   return "I am also a callback function";
 }
 
-function invoker(Callback(x)){
-  return Callback(x)
+function invoker(callback){
+  return callback()
 }
 
 //////////////////PROBLEM 9////////////////////
