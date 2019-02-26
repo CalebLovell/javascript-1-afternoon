@@ -172,7 +172,9 @@ let pondScope = ["duck", "realDuck"];
 //function which returns your name.
 
 function outerFn() {
-  let name = function(){"Caleb"};
+  let name = function(){
+    return `Caleb`
+  }
   return name
 }
 
