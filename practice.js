@@ -130,7 +130,7 @@ function sampleCallbackTwo() {
 }
 
 function invoker(callback()){
-  return callback()
+  return callback
 }
 
 //////////////////PROBLEM 9////////////////////
