@@ -172,7 +172,7 @@ let pondScope = ["duck", "realDuck"];
 //function which returns your name.
 
 function outerFn() {
-  function() = `Caleb`
+  function() {`Caleb`}
 }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
