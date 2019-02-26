@@ -39,10 +39,10 @@ const groceries = ['apples', 'milk', 'eggs', 'bread']
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
 
-function doubleCheck(array){
-  if (array.includes('chocolate'){
-    return array
-  } else (array.push('chocoalte'))
+function doubleCheck(groceries){
+  if (groceries.includes('chocolate'){
+    return groceries
+  } else (groceries.push('chocoalte'))
 }
 
 //////////////////PROBLEM 5////////////////////
