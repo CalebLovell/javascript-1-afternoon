@@ -107,12 +107,14 @@ function math(num1, num2, callback) {
 //Write a function called add that takes in two parameters and
 //returns the result of adding them together.
 
-//Code Here
+function add(param1, param2) {
+  return param1+param2
+}
 
 //Now invoke math, passing in the numbers 3 and 4, and your add function,
 //storing the result in the variable mathSum.
 
-//Code Here
+mathSum = math(3,4, add)
 
 //////////////////PROBLEM 8////////////////////
 
