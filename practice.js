@@ -15,7 +15,7 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-let function newGreeting(name){
+let newGreeting = function(name){
   return `Hello, ${name}`
 }
 
