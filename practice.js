@@ -54,9 +54,9 @@ function doubleCheck(array){
 //and goodBoy (a boolean).
 
 const dog = {
-  name: 'Fluffy'
-  color: 'black'
-  age: 6
+  name: 'Fluffy',
+  color: 'black',
+  age: 6,
   goodBoy: false
 }
 
