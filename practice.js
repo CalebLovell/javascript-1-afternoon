@@ -68,7 +68,7 @@ const devMountainClassPet = dog.name
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
-dog.bark = function (bark){
+dog.bark = function(bark){
   return `Woof woof`
 }
 
