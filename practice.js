@@ -53,17 +53,24 @@ function doubleCheck(array){
 //name (a string), color: (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+const dog = {
+  name: 'Fluffy'
+  color: 'black'
+  age: 6
+  goodBoy: false
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+const devMountainClassPet = dog.name
 
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
-//Code Here
+dog.bark = function (bark){
+  return `Woof woof`
+}
 
 //Store the result of invoking the bark method in a variable called ruff.
 
