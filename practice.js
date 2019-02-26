@@ -87,7 +87,14 @@ const ruff = dog.bark()
 
 //Return mySum.
 
-//Code Here
+function looper(array1) {
+  let mySum = 0;
+  for (i = 0, i <= array1.length, i++) {
+    if (i/2 == 0 || i >= 100) {
+      mySum += i
+    }
+  }
+} return mySum
 
 //////////////////PROBLEM 7////////////////////
 
